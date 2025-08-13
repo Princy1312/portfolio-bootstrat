@@ -45,5 +45,4 @@ document.addEventListener('click', (e) => {
     if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
         navLinks.classList.remove('active');
     }
-});
-
+})
